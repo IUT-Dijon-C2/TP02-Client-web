@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+  <link href="css/body.css" rel="stylesheet" />
+  <link href="css/header.css" rel="stylesheet" />
+  <link href="css/content.css" rel="stylesheet" />
+  <link href="css/alertes.css" rel="stylesheet" />
+  <link href="css/fin.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="header">
+    <div id="stock" class="header-ressource"><p class="header-ressource-title">Stock</p><p class="header-ressource-quantite">? / ?</p></div>
+    <div id="matieres-premieres" class="header-ressource"><p class="header-ressource-title">Matières premières</p><p class="header-ressource-quantite">?</p></div>
+    <div id="ressources-humaines" class="header-ressource"><p class="header-ressource-title">Ressources humaines</p><p class="header-ressource-quantite">? / ?</p></div>
+    <div id="tresorerie" class="header-ressource"><p class="header-ressource-title">Trésorerie</p><p class="header-ressource-quantite">?</p></div>
+  </div>
+
+  <div id="content">
+    <div class="content-colonne">
+      <div id="btn-commander-matieres-premieres" class="bouton">Commander<br />des<br />matières premières</div>
+    </div>
+    <div class="content-colonne">
+      <div>
+        <div id="btn-produire-velo" class="bouton">Produire un vélo</div>
+        <div id="btn-produire-scooter" class="bouton">Produire un scooter</div>
+        <div id="btn-produire-voiture" class="bouton">Produire une voiture</div>
+      </div>
+
+      <div id="content-schema"></div>
+
+      <div>
+        <div id="btn-recruter" class="bouton">Recruter</div>
+        <div id="btn-licencier" class="bouton">Licencier</div>
+      </div>
+    </div>
+    <div class="content-colonne">
+      <div id="cadre-production" class="cadre">
+        <h1>Production en cours :</h1>
+        <div id="info-production-velo" class="info velo">?</div>
+        <div id="info-production-scooter" class="info scooter">?</div>
+        <div id="info-production-voiture" class="info voiture">?</div>
+      </div>
+      <div id="cadre-stock" class="cadre">
+        <h1>En stock:</h1>
+        <div id="info-stock-velo" class="info velo">?</div>
+        <div id="info-stock-scooter" class="info scooter">?</div>
+        <div id="info-stock-voiture" class="info voiture">?</div>
+      </div>
+      <div id="cadre-demandes" class="cadre">
+        <h1>Demandes des consommateurs :</h1>
+        <div id="info-demandes-velo" class="info velo">?</div>
+        <div id="info-demandes-scooter" class="info scooter">?</div>
+        <div id="info-demandes-voiture" class="info voiture">?</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="alertes"></div>
+
+  <div id="ecran-fin-partie"><p>Vous avez fait<br />FAILLITE !</p></div>
+
+  <script src="js/modeles/patterns/observateur.js"></script>
+  <script src="js/modeles/patterns/sujet.js"></script>
+  <script src="js/modeles/patterns/collection.js"></script>
+  <script src="js/controleurs/controleur.js"></script>
+  <script src="js/vues/vue.js"></script>
+  <script src="js/modeles/entreprise/entreprise.js"></script>
+  <script src="js/modeles/entreprise/produit.js"></script>
+  <script src="js/modeles/entreprise/produit-quantifiable.js"></script>
+  <script src="js/modeles/entreprise/produits.js"></script>
+  <script src="js/modeles/entreprise/ressource.js"></script>
+  <script src="js/modeles/entreprise/stock.js"></script>
+  <script src="js/modeles/actualites/actualite.js"></script>
+  <script src="js/modeles/actualites/actualites.js"></script>
+  <script src="js/modeles/consommateurs/consommateurs.js"></script>
+  <script src="js/controleurs/main.js"></script>
+</body>
+</html>

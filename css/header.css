@@ -1,0 +1,46 @@
+﻿#header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	width: 100vw;
+
+	background-color: #003366;
+
+	text-align: center;
+
+	box-sizing: border-box;
+}
+
+.header-ressource
+{
+	display: inline-block;
+	vertical-align: top;
+
+	min-width: 100px;
+
+	padding: 5px;
+	margin: 5px 5px 5px 0;
+
+	color: #FFFFFF;
+
+	text-align: center;
+
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header-ressource p
+{
+	margin: 0;
+}
+
+.header-ressource-title
+{
+	font-size: 12px;
+}
+
+.header-ressource-quantite
+{
+	font-size: 16px;
+}

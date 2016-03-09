@@ -1,0 +1,148 @@
+﻿#content
+{
+	text-align: center;
+	white-space: nowrap;
+}
+
+.content-colonne
+{
+	display: inline-block;
+	vertical-align: middle;
+
+	padding: 0 20px 0 20px;
+
+	text-align: center;
+}
+
+.bouton
+{
+	display: inline-block;
+	
+	width: 150px;
+	padding: 80px 10px 10px 10px;
+
+	font-size: 12px;
+	text-align: center;
+
+	background-repeat: no-repeat;
+	background-position: center 10px;
+	background-color: #EEEEEE;
+
+	border: 1px solid #003366;
+
+	cursor: pointer;
+}
+
+#btn-commander-matieres-premieres
+{
+	background-image: url(../img/content/transport.png);
+}
+
+#btn-produire-velo
+{
+	background-image: url(../img/content/velo.png);
+}
+
+#btn-produire-scooter
+{
+	background-image: url(../img/content/scooter.png);
+}
+
+#btn-produire-voiture
+{
+	background-image: url(../img/content/voiture.png);
+}
+
+#btn-recruter
+{
+	background-image: url(../img/content/embaucher.png);
+}
+
+#btn-licencier
+{
+	background-image: url(../img/content/licencier.png);
+}
+
+#content-schema
+{
+	width: 670px;
+	height: 470px;
+
+	background: url(../img/content/schema.png) no-repeat center;
+}
+
+.cadre
+{
+	margin-top: 30px;
+	padding: 10px 10px 10px 70px;
+
+	font-size: 12px;
+	text-align: center;
+
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	background-color: #EEEEEE;
+
+	border: 1px solid #003366;
+
+	box-sizing: border-box;
+}
+
+.cadre:first-child
+{
+	margin-top: 0;
+}
+
+.cadre h1
+{
+	font-size: 15px;
+	text-align: left;
+}
+
+#cadre-production
+{
+	background-image: url(../img/content/production.png);
+}
+
+#cadre-stock
+{
+	background-image: url(../img/content/stock.png);
+}
+
+#cadre-demandes
+{
+	background-image: url(../img/content/demandes.png);
+}
+
+.info
+{
+	display: inline-block;
+	vertical-align: top;
+
+	width: 70px;
+	padding: 40px 10px 10px 10px;
+
+	background-color: #EEEEEE;
+	background-size: auto 25px;
+	background-position: center 10px;
+	background-repeat: no-repeat;
+
+	border: 1px solid #003366;
+
+	box-sizing: border-box;
+}
+
+.info.velo
+{
+	background-image: url(../img/content/velo.png);
+}
+
+.info.scooter
+{
+	background-image: url(../img/content/scooter.png);
+}
+
+.info.voiture
+{
+	background-image: url(../img/content/voiture.png);
+}
